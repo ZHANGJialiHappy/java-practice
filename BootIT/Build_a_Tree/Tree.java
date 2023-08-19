@@ -14,18 +14,34 @@ public class Tree {
     }
 
     void display() {
-        if (age % 5 > 0) {
-            System.out.println("Your tree is currently" + age + "years old.");
-            System.out.println("It has reached the height of" + height + " cm.");
+        if (age < max_age) {
+            if (age % 5 != 0) {
+                System.out.println("Your tree is currently " + age + " years old.");
+                System.out.println("It has reached the height of " + height + " cm.");
+            } else
+                System.out.println("Your tree is currently " + age + " years old, and it gets flowers, and it's "
+                        + height + " cm.");
         } else
-            System.out.println("Your tree is currently" + age + "years old.");
+            System.out.println("Your tree is dead");
 
     }
 
     void grow() {
-        while (age < max_age && age % 5 != 0) {
+        while (age < max_age) {
             age += 1;
-            System.out.println("And your tree just grew a year older!");
+            height += growth_rate;
+            if (age % 100 == 0) {
+                System.out.println("Your tree just grew a year older!");
+                System.out.println("Congratulations! Your tree is " + age + " years old.");
+            }
+
+            else {
+                if (age % 5 == 0 && age % 20 != 0) {
+                    System.out.println("Your tree just grew a year older!");
+                    System.out.println("It gets flowers, and it's " + age + " years old.");
+                } else
+                    System.out.println("Your tree just grew a year older! It's " + age + " years old.");
+            }
         }
     }
 
