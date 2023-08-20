@@ -18,13 +18,11 @@ public class FlightTicket {
     }
 
     void discount() {
-        if (!usedDiscount) {
-            if (price > 1000)
-                price = price - 500;
-            else
-                return;
-        } else
+        if (usedDiscount) {
             return;
-
+        }
+        if (price > 1000) {
+            price = price - 500;
+        }
     }
 }

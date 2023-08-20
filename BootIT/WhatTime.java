@@ -6,25 +6,29 @@ public class WhatTime {
     }
 
     static String timeOfDay(int time) {
-        if (time > 6 && time < 12)
+        if (time > 6 && time < 12) {
             return "morning";
-        else if (time >= 12 && time < 13)
+        }
+        if (time >= 12 && time < 13) {
             return "noon";
-        else if (time >= 13 && time < 18)
+        }
+        if (time >= 13 && time < 18) {
             return "afternoon";
-        else if (time >= 18 && time <= 23)
+        }
+        if (time >= 18 && time <= 23) {
             return "evening";
-        else if (time == 0)
+        }
+        if (time == 0) {
             return "midnight";
-        else
-            return "night";
+        }
+        return "night";
     }
 
     static String unitOfTime(int time) {
-        if (time >= 0 && time < 13)
+        if (time >= 0 && time < 13) {
             return "am";
-        else
-            return "pm";
+        }
+        return "pm";
     }
 
     public static void main(String[] args) {
