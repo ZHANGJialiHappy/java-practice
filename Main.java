@@ -23,6 +23,12 @@ public class Main {
         // System.out.println(var2);
         // scanner.close();
 
+        int a = 0;
+        do {
+            System.out.println(a);
+            a++;
+        } while (a <= -1);
+
     }
 
 }
