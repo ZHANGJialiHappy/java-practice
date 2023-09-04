@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class DoWhile {
     // psvm
     public static void main(String[] args) {
         // syso
