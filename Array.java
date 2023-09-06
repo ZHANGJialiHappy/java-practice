@@ -1,5 +1,6 @@
-// import java.util.ArrayList;
+import java.util.ArrayList;
 // import java.util.Arrays;
+import java.util.Arrays;
 
 public class Array {
     public static void main(String[] args) {
@@ -11,6 +12,8 @@ public class Array {
         // myintarray = Arrays.copyOf(myintarray, myintarray.length - 5);
 
         // System.out.println(Arrays.toString(myintarray));
+
+        // List<Integer> List = Arrays.asList(myintarray);
 
         int[] myintarray2 = { 2, 1, 121 };
         for (int i = 0; i < myintarray.length; i++) {
@@ -24,6 +27,12 @@ public class Array {
             if (myintarray[i] != 0)
                 System.out.println(myintarray[i]);
         }
+        // for each loop: print elements in array one by one.
+        for (int number : myintarray) {
+            System.out.println(number);
+        }
+        // Arrays.toString(): print the array.
+        System.out.println(Arrays.toString(myintarray));
 
     }
 
