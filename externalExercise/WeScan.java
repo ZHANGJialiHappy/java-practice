@@ -1,5 +1,3 @@
-package externalExercise;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
