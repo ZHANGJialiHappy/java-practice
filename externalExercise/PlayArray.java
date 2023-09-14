@@ -30,15 +30,6 @@ public class PlayArray {
         for (int i = 0; i < array1.length; i++) {
             if (Arrays.binarySearch(array2, array1[i]) < 0) {
                 result.add(array1[i]);
-            } else {
-                result.add(null);
-            }
-        }
-        Iterator<Integer> itr = result.iterator();
-        while (itr.hasNext()) {
-            Integer number = itr.next();
-            if (number == null) {
-                itr.remove();
             }
         }
         return result;
@@ -47,7 +38,7 @@ public class PlayArray {
     // general method for get subset????????
 
     public static void main(String[] args) {
-        int[] myintarray = { 1, 2, 3, 4, 5 };
+        int[] myintarray = { 2, 3, 121, 4, 5 };
         // // find index of an int array
         // // solution 1: loop
         // int element = 1;
