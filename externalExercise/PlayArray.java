@@ -21,24 +21,26 @@ public class PlayArray {
         System.out.println(index);
     }
 
+    // general solution
     static ArrayList<Integer> extractSubset(int[] array1, int[] array2) {
         ArrayList<Integer> result = new ArrayList<>();
         if (array1.length == 0) {
             return result;
         }
-
         for (int i = 0; i < array1.length; i++) {
-            if (Arrays.binarySearch(array2, array1[i]) < 0) {
+            if (
+            // Arrays.asList(objects!!!!!)
+            // !Arrays.asList(array2).contains(array1[i])
+            Arrays.binarySearch(array2, array1[i]) < 0) {
                 result.add(array1[i]);
             }
         }
         return result;
     }
 
-    // general method for get subset????????
-
     public static void main(String[] args) {
         int[] myintarray = { 2, 3, 121, 4, 5 };
+
         // // find index of an int array
         // // solution 1: loop
         // int element = 1;
@@ -56,7 +58,7 @@ public class PlayArray {
         // System.out.println(Arrays.toString(myintarray));
 
         // // find different elements in 2 arrays
-        int[] myintarray2 = { 1, 3, 121 };
+        // int[] myintarray2 = { 1, 3, 121 };
         // // interator??????
         // for (int i = 0; i < myintarray.length; i++) {
         // for (int j = 0; j < myintarray2.length; j++) {
@@ -66,10 +68,10 @@ public class PlayArray {
         // }
         // }
 
-        // general solution??????????????????/
-
-        System.out.println(extractSubset(myintarray, myintarray2).toString());
-        // System.out.println(extractSubset(myintarray, myintarray2).toString());
+        // general solution
+        Integer[] myIntegerArray1 = { 2, 3, 121, 4, 5 };
+        Integer[] myIntegerArray2 = { 1, 3, 121 };
+        System.out.println(extractSubset(myIntegerArray1, myIntegerArray2).toString());
 
         // // for loop to print, output: 3,4,5
         // for (int i = 0; i < myintarray.length; i++) {
@@ -104,14 +106,6 @@ public class PlayArray {
 
         // System.out.println(tries[0]);
         // System.out.println(Arrays.toString(tries));
-
-        // // put default array in ArrayList. Attention!: the type
-        // Integer[] myintarray4 = { 7, 8, 3, 4, 5 };
-        // ArrayList<Integer> x = new ArrayList<>(Arrays.asList(myintarray4));
-        // for (int a : x) {
-        // System.out.println(a);
-        // }
-        // System.out.println(x.toString());
 
         // // convert ArrayList to size fixed array
         // ArrayList<Integer> myintarray5 = new ArrayList<Integer>();
