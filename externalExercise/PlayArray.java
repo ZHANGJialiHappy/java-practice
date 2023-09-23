@@ -1,5 +1,3 @@
-package externalExercise;
-
 import java.util.ArrayList;
 
 // import java.util.ArrayList;
@@ -22,7 +20,7 @@ public class PlayArray {
     }
 
     // general solution
-    static ArrayList<Integer> extractSubset(int[] array1, int[] array2) {
+    static ArrayList<Integer> extractSubset(Integer[] array1, Integer[] array2) {
         ArrayList<Integer> result = new ArrayList<>();
         if (array1.length == 0) {
             return result;

@@ -12,8 +12,8 @@ public class MapTester {
         students.put(name, number);
     }
 
-    public void getStudent() {
-        System.out.println(students.toString());
+    public String toString() {
+        return students.toString();
     }
 
     public boolean hasStudent(String name) {
