@@ -45,4 +45,11 @@ public class Lab {
             }
         }
     }
+
+    public String checkEquipment(Student student) {
+        Set<String> aStudentEquipment = studentEquipment.get(student);
+        if (aStudentEquipment == null)
+            return "no equipment";
+        return aStudentEquipment.toString();
+    }
 }
