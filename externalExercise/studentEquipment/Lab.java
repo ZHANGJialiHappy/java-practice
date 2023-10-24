@@ -24,16 +24,16 @@ public class Lab {
         if (!availableEquipment.contains(equipmentName)) {
             return false;
         }
+        Set<String> bookedEquipment;
         if (studentEquipment.containsKey(student)) {
-            studentEquipment.get(student).add(equipmentName);
-            availableEquipment.remove(equipmentName);
-            return true;
+            bookedEquipment = studentEquipment.get(student);
         } else {
-            Set<String> booked = new HashSet<>();
-            booked.add(equipmentName);
-            studentEquipment.put(student, booked);
-            return true;
+            bookedEquipment = new HashSet<>();
+            studentEquipment.put(student, bookedEquipment);
         }
+        bookedEquipment.add(equipmentName);
+        availableEquipment.remove(equipmentName);
+        return true;
     }
 
     public void returnEquipment(Student student) {
