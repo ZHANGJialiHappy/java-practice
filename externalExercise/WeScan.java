@@ -5,8 +5,9 @@ public class WeScan {
     public static void main(String[] args) {
 
         try (Scanner sc = new Scanner(System.in)) {
-            String input = sc.nextLine();
-            System.out.println(input);
+            int day = sc.nextInt();
+            String input = sc.next();
+            System.out.println(input + day);
         } catch (Exception e) {
             System.out.println("You input wrong type.");
         }
