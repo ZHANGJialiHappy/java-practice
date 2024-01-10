@@ -25,7 +25,6 @@ public class Skener {
                 System.out.println();
 
             }
-
         }
     }
 }
