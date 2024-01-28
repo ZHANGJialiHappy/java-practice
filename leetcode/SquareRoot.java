@@ -4,7 +4,7 @@ public class SquareRoot {
         int right = x;
         while (left <= right) {
             int mid = (left + right) / 2;
-            if ((long) mid * mid > (long) x) {
+            if ((long) mid * mid > x) {
                 right = mid - 1;
             } else if (mid * mid < x) {
                 left = mid + 1;
@@ -16,7 +16,7 @@ public class SquareRoot {
 
     public int mySqrt2(int x) {
         for (int i = 0; i <= x; i++) {
-            if (i * i <= x && (long) (i + 1) * (i + 1) > (long) x) {
+            if (i * i <= x && (long) (i + 1) * (i + 1) > x) {
                 return (int) i;
             }
         }
