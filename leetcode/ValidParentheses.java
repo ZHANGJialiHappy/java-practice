@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Stack;
 
 public class ValidParentheses {
@@ -27,7 +28,13 @@ public class ValidParentheses {
 
     public static void main(String[] args) {
         ValidParentheses a = new ValidParentheses();
-        System.out.println(a.isValid("([])"));
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        if (a.isValid(input)) {
+            System.out.println("1");
+        } else {
+            System.out.println("0");
+        }
 
     }
 }
