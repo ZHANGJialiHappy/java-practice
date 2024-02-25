@@ -18,6 +18,7 @@ public class TopKElement {
             // value++;
             // }
             // frequentMap.put(key, value);
+
             // frequentMap.merge(key, 1, Integer::sum);
             // frequentMap.merge(key, 1, (oldevalue, newvalue) -> oldevalue + newvalue);
             frequentMap.put(key, frequentMap.getOrDefault(key, 0) + 1);
