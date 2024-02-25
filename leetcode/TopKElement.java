@@ -18,8 +18,10 @@ public class TopKElement {
             // value++;
             // }
             // frequentMap.put(key, value);
-            frequentMap.merge(key, 1, Integer::sum);
+            // frequentMap.merge(key, 1, Integer::sum);
             // frequentMap.merge(key, 1, (oldevalue, newvalue) -> oldevalue + newvalue);
+            frequentMap.put(key, frequentMap.getOrDefault(key, 0) + 1);
+
         }
         List<Map.Entry<Integer, Integer>> list = new ArrayList<>(frequentMap.entrySet());
 
@@ -56,7 +58,7 @@ public class TopKElement {
     }
 
     public static void main(String[] args) {
-        int[] a = { 1, 1, 1, 2, 2, 3 };
-        System.out.println(Arrays.toString(solution2(a, 2)));
+        int[] a = { 1, 1, 2, 2, 2, 3, 3, 3, 3, 3 };
+        System.out.println(Arrays.toString(solution(a, 2)));
     }
 }
