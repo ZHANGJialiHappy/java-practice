@@ -22,8 +22,8 @@ public class TopKElement {
             // frequentMap.merge(key, 1, Integer::sum);
             // frequentMap.merge(key, 1, (oldevalue, newvalue) -> oldevalue + newvalue);
             frequentMap.put(key, frequentMap.getOrDefault(key, 0) + 1);
-
         }
+
         List<Map.Entry<Integer, Integer>> list = new ArrayList<>(frequentMap.entrySet());
 
         Collections.sort(list, new Comparator<Map.Entry<Integer, Integer>>() {
