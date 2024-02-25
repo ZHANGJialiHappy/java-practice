@@ -45,13 +45,15 @@ public class TopKElement {
             frequentMap.put(num, frequentMap.getOrDefault(num, 0) + 1);
         }
 
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> frequentMap.get(b) - frequentMap.get(a));
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> frequentMap.get(a) - frequentMap.get(b));
         for (int num : frequentMap.keySet()) {
             pq.offer(num);
+            if (pq.size() > k) {
+                pq.poll();
+            }
         }
-        System.out.println(pq);
 
-        for (int i = 0; i < k; i++) {
+        for (int i = k - 1; i >= 0; i--) {
             ans[i] = pq.poll();
         }
         return ans;
