@@ -1,0 +1,364 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Aaah",
+            "request": "launch",
+            "mainClass": "Aaah",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "AddBinary",
+            "request": "launch",
+            "mainClass": "AddBinary",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "Autori",
+            "request": "launch",
+            "mainClass": "Autori",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "BabyBites",
+            "request": "launch",
+            "mainClass": "BabyBites",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "CandyShop",
+            "request": "launch",
+            "mainClass": "CandyShop",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "ClimbingStairs",
+            "request": "launch",
+            "mainClass": "ClimbingStairs",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "ColdPuterScience",
+            "request": "launch",
+            "mainClass": "ColdPuterScience",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "DetailedDifferences",
+            "request": "launch",
+            "mainClass": "DetailedDifferences",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "DoWhile",
+            "request": "launch",
+            "mainClass": "DoWhile",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "Faktor",
+            "request": "launch",
+            "mainClass": "Faktor",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "Filip",
+            "request": "launch",
+            "mainClass": "Filip",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "FindBestPath",
+            "request": "launch",
+            "mainClass": "FindBestPath",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "FindIndex",
+            "request": "launch",
+            "mainClass": "FindIndex",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "FindMissingSmallest",
+            "request": "launch",
+            "mainClass": "FindMissingSmallest",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "FindRepetitive",
+            "request": "launch",
+            "mainClass": "FindRepetitive",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "FirstToEnd",
+            "request": "launch",
+            "mainClass": "FirstToEnd",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "Howl",
+            "request": "launch",
+            "mainClass": "Howl",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "IsItHalloween",
+            "request": "launch",
+            "mainClass": "IsItHalloween",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "LengthLastWord",
+            "request": "launch",
+            "mainClass": "LengthLastWord",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "LongestCommonPrefix",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "MaxProfit",
+            "request": "launch",
+            "mainClass": "MaxProfit",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "MissingInteger",
+            "request": "launch",
+            "mainClass": "MissingInteger",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "MissingInteger2",
+            "request": "launch",
+            "mainClass": "MissingInteger2",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "MissingPositiveNumber",
+            "request": "launch",
+            "mainClass": "MissingPositiveNumber",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "Modulo",
+            "request": "launch",
+            "mainClass": "Modulo",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeLinkedList",
+            "request": "launch",
+            "mainClass": "PalindromeLinkedList",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeNumber",
+            "request": "launch",
+            "mainClass": "PalindromeNumber",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "PlayArray",
+            "request": "launch",
+            "mainClass": "PlayArray",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "PlusOne",
+            "request": "launch",
+            "mainClass": "PlusOne",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "QuadrantSelection",
+            "request": "launch",
+            "mainClass": "QuadrantSelection",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "R2",
+            "request": "launch",
+            "mainClass": "R2",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "RemoveElement",
+            "request": "launch",
+            "mainClass": "RemoveElement",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "ReversedBinaryDumbers",
+            "request": "launch",
+            "mainClass": "ReversedBinaryDumbers",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "RomanToInteger",
+            "request": "launch",
+            "mainClass": "RomanToInteger",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "Skener",
+            "request": "launch",
+            "mainClass": "Skener",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "Spavanac",
+            "request": "launch",
+            "mainClass": "Spavanac",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "SquareRoot",
+            "request": "launch",
+            "mainClass": "SquareRoot",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "String1",
+            "request": "launch",
+            "mainClass": "String1",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "TakeTwoStones",
+            "request": "launch",
+            "mainClass": "TakeTwoStones",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "Tarifa",
+            "request": "launch",
+            "mainClass": "Tarifa",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "TimeLoop",
+            "request": "launch",
+            "mainClass": "TimeLoop",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "TopKElement",
+            "request": "launch",
+            "mainClass": "TopKElement",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "TopKWords",
+            "request": "launch",
+            "mainClass": "TopKWords",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "Tri",
+            "request": "launch",
+            "mainClass": "Tri",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "ValidPalindrome",
+            "request": "launch",
+            "mainClass": "ValidPalindrome",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "ValidParentheses",
+            "request": "launch",
+            "mainClass": "ValidParentheses",
+            "projectName": "java-practice_9897380a"
+        },
+        {
+            "type": "java",
+            "name": "WeScan",
+            "request": "launch",
+            "mainClass": "WeScan",
+            "projectName": "java-practice_9897380a"
+        }
+    ]
+}
